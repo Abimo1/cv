@@ -1,0 +1,113 @@
+/*body {
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    right: -23%;
+    margin-right: -23%;
+}
+button#b1 {
+    padding: 10px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color: gray;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px #800000;
+    
+}
+button#b2 {
+    padding: 25px 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    background-color:gray;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px #800000;
+    
+}
+nav {
+    background: gray;
+    border-radius: 5px;
+    height: 120px;
+    line-height: 120px;
+}*/
+
+body {
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #ffffff;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.682);
+}
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a{
+    opacity: 1;
+    color: #ffffff;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .07s ease-in-out;
+}
+.navbar-menu li a:hover{
+    opacity: 1;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.callback {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+}
+img {
+    margin-top: 20px;
+  }
+
+
+/*.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+}*
+.navbar-brand:hover {
+    color: coral;
+    transition: all .07s ease-in-out;
+}
